@@ -43,7 +43,7 @@ export default function Navbar() {
           href="/"
           className="font-heading text-xl font-bold text-gradient tracking-tight"
         >
-          paim.
+          Paim.
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
