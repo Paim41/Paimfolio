@@ -13,7 +13,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Paim — Full-stack designer & developer",
+    default: "Paim",
     template: "%s | Paim",
   },
   description:
