@@ -34,7 +34,7 @@ export async function POST(req: Request) {
 
       if (resend) {
         await resend.emails.send({
-          from: "paim.dev <onboarding@resend.dev>",
+          from: "Paim <onboarding@resend.dev>",
           to: contactEmail,
           subject: `New booking inquiry: ${service} from ${name}`,
           html: `
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
 
       if (resend) {
         await resend.emails.send({
-          from: "paim.dev <onboarding@resend.dev>",
+          from: "Paim <onboarding@resend.dev>",
           to: contactEmail,
           subject: `New contact message from ${name}`,
           html: `

@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs text-zinc-400">
-          &copy; {new Date().getFullYear()} paim.dev. All rights reserved.
+          &copy; {new Date().getFullYear()} Paim. All rights reserved.
         </p>
       </div>
     </footer>

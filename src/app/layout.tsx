@@ -13,23 +13,23 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "paim.dev — Full-stack designer & developer",
-    template: "%s | paim.dev",
+    default: "Paim — Full-stack designer & developer",
+    template: "%s | Paim",
   },
   description:
     "Building beautiful, fast web experiences — available for freelance projects. Next.js, React, Supabase, TypeScript.",
   openGraph: {
-    title: "paim.dev — Full-stack designer & developer",
+    title: "Paim — Full-stack designer & developer",
     description:
       "Building beautiful, fast web experiences — available for freelance projects.",
-    url: "https://paim.dev",
-    siteName: "paim.dev",
+    url: "https://Paim",
+    siteName: "Paim",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "paim.dev — Full-stack designer & developer",
+    title: "Paim — Full-stack designer & developer",
     description:
       "Building beautiful, fast web experiences — available for freelance projects.",
   },

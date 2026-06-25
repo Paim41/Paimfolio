@@ -65,7 +65,7 @@ const timeline = [
   },
   {
     year: "2025",
-    title: "paim.dev launched",
+    title: "Paim launched",
     description:
       "Designed and built this portfolio from scratch — a glassmorphism-themed showcase featuring live video backgrounds, dynamic project management, and freelance booking.",
   },
