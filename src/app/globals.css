@@ -2,10 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* ========================================
+   SCROLLBAR
+======================================== */
+
+html {
+  scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.08) transparent;
+  scrollbar-color: #38bdf8 #f0f9ff;
 }
+
+/* Chrome, Edge and Safari */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f9ff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #bae6fd 0%,
+    #38bdf8 50%,
+    #0ea5e9 100%
+  );
+
+  border-radius: 999px;
+  border: 2px solid #f0f9ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #7dd3fc 0%,
+    #0ea5e9 50%,
+    #0284c7 100%
+  );
+}
+
+/* ========================================
+   GLOBAL
+======================================== */
 
 body {
   font-family: Georgia, "Times New Roman", serif;
@@ -16,6 +55,10 @@ body {
 ::selection {
   background: rgba(14, 165, 233, 0.15);
 }
+
+/* ========================================
+   UTILITIES
+======================================== */
 
 @layer utilities {
   .font-num {
@@ -48,19 +91,24 @@ body {
   }
 
   .bg-grid {
-    background-image: radial-gradient(rgba(14, 165, 233, 0.06) 1px, transparent 1px);
+    background-image: radial-gradient(
+      rgba(14, 165, 233, 0.06) 1px,
+      transparent 1px
+    );
     background-size: 40px 40px;
   }
 
   .glow-ring {
-    box-shadow: 0 0 20px rgba(14, 165, 233, 0.25),
-                0 0 40px rgba(56, 189, 248, 0.15),
-                0 0 60px rgba(14, 165, 233, 0.08);
+    box-shadow:
+      0 0 20px rgba(14, 165, 233, 0.25),
+      0 0 40px rgba(56, 189, 248, 0.15),
+      0 0 60px rgba(14, 165, 233, 0.08);
   }
 
   .glow-ring-sm {
-    box-shadow: 0 0 10px rgba(14, 165, 233, 0.2),
-                0 0 20px rgba(56, 189, 248, 0.1);
+    box-shadow:
+      0 0 10px rgba(14, 165, 233, 0.2),
+      0 0 20px rgba(56, 189, 248, 0.1);
   }
 
   .nav-blur {
