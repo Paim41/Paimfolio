@@ -5,7 +5,7 @@
 
 Selected work, freelance packages with real prices, booking, and a working contact flow — all wrapped inside one fast, polished site.
 
-[![Live Demo](https://img.shields.io/badge/VIEW%20SITE-Live%20Demo-2FB8F5?style=for-the-badge&logo=vercel&logoColor=white)](https://paimfoliomyid.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/VIEW%20SITE-Live%20Demo-2FB8F5?style=for-the-badge&logo=vercel&logoColor=white)](https://www.paimfolio.my.id/)
 [![Available For Projects](https://img.shields.io/badge/Available%20For-Projects-C0C0C0?style=for-the-badge)](https://paimfoliomyid.vercel.app/services)
 [![No Fluff](https://img.shields.io/badge/No%20Hidden-Fees-000000?style=for-the-badge)](https://paimfoliomyid.vercel.app/services)
 [![Type](https://img.shields.io/badge/Type-Portfolio%20%26%20Booking-2FB8F5?style=for-the-badge)](https://paimfoliomyid.vercel.app/)
